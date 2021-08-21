@@ -34,6 +34,7 @@ export default function Textform(props) {
 
                    
             var copyText = document.getElementById("mybox");
+           
 
             
             copyText.select();
