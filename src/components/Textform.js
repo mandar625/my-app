@@ -83,7 +83,7 @@ export default function Textform(props) {
             <h2>
                 Your Text summay
             </h2>
-            <p>{text.trim().split(/\s+/).length} words, {text.replace(/ /g,"").length}characters</p>
+            <p>{text.trim().split(/\s+/).length} Words, {text.replace(/ /g,"").length}characters</p>
             <p>{ 0.008*text.split(" ").length} Minutes to Read</p>
             
             <p>{text.split(" ").length - 1}  Spaces</p>
